@@ -42,7 +42,7 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
-.container .center img{
+.container .center img {
   width: 90px;
   height: 90px;
 }
@@ -110,8 +110,17 @@ body {
   color: var(--color);
   text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.15);
 }
-.container .spinner-wheel .item span img{
+.container .spinner-wheel .item span img {
   width: 80px;
   height: 80px;
   margin-top: 20px;
+}
+#my-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10000;
+  visibility: hidden;
 }
